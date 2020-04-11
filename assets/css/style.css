@@ -1,0 +1,22 @@
+div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section {
+    width: 20%;
+    margin: 2%;
+    border: solid 1px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+
+    
+}
+div section:nth-child(1) img {visibility: visible;}
+div section:nth-child(2) img {visibility: hidden;}
+div section:nth-child(3) img {display: none;}
+div section:nth-child(4) img {opacity: 0.1;}
